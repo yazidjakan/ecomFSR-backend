@@ -1,0 +1,4 @@
+package com.ecom.products_service.repository;
+
+public interface ProduitRepository {
+}
