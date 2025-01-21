@@ -1,4 +1,12 @@
 package com.ecom.clients_service.dto;
 
-public record UserDto() {
+import java.util.Set;
+
+public record UserDto(
+        Long id,
+        String username,
+        String email,
+        String password,
+        Set<RoleDto> roleDtos
+) {
 }
