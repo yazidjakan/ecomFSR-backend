@@ -2,7 +2,7 @@ package com.ecom.commandes_service.service.facade;
 
 import java.util.List;
 
-public interface AbstractService<D,I>{
+public interface AbstractService <D,I>{
     D findById(I id);
     List<D> findAll();
     D save(D dto);
