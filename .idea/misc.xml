@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/products-service/pom.xml" />
         <option value="$PROJECT_DIR$/commandes-service/pom.xml" />
         <option value="$PROJECT_DIR$/discovery-service/pom.xml" />
+        <option value="$PROJECT_DIR$/config-service/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
