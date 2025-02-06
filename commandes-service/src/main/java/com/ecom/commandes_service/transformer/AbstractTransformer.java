@@ -41,6 +41,7 @@ public abstract class AbstractTransformer<E,D> {
             return entities;
         }
     }
+
     public Set<D> toDtoSet(Set<E> entities){
         if(entities == null || entities.isEmpty()){
             return null;

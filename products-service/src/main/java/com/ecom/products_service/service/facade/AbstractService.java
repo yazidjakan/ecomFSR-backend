@@ -1,5 +1,6 @@
 package com.ecom.products_service.service.facade;
 
+
 import java.util.List;
 
 public interface AbstractService<D,I>{

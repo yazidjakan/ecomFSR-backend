@@ -1,5 +1,7 @@
 package com.ecom.products_service.transformer;
 
+import com.ecom.products_service.entity.Fournisseur;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -52,4 +54,6 @@ public abstract class AbstractTransformer<E,D> {
             return dtos;
         }
     }
+
+
 }

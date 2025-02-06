@@ -2,14 +2,19 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
+      <profile default="true" name="Default" enabled="true">
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/commandes-service" />
+        </processorPath>
+      </profile>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gateway-service" />
+        <module name="paiement-service" />
       </profile>
-      <profile name="Annotation profile for products-service" enabled="true">
+      <profile name="Annotation profile for clients-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -20,7 +25,6 @@
         <module name="products-service" />
         <module name="commandes-service" />
         <module name="config-service" />
-        <module name="paiement-service" />
         <module name="discovery-service" />
       </profile>
     </annotationProcessing>
